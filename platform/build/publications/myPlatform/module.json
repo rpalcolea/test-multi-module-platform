@@ -1,0 +1,65 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "group": "netflix.nebula",
+    "module": "platform",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4",
+      "buildId": "li3lpkfthjeojdlybrvtfintra"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "netflix.nebula",
+          "module": "clienta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "netflix.nebula",
+          "module": "clientb",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "netflix.nebula",
+          "module": "clienta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "netflix.nebula",
+          "module": "clientb",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ]
+    }
+  ]
+}

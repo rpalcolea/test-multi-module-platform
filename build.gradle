@@ -1,0 +1,7 @@
+
+allprojects {
+    group = 'netflix.nebula'
+    version = '1.0.0'
+    apply plugin: 'maven-publish'
+}
+

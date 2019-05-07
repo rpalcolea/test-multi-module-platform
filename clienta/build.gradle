@@ -1,0 +1,8 @@
+apply plugin: 'groovy'
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile group: 'com.google.guava', name: 'guava', version: '19.0'
+}
